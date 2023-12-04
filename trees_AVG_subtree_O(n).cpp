@@ -1,6 +1,6 @@
 class Solution {
 public:
-
+//this code is 0(n) just because using pair
     int count=0;
     pair<int,int> postorder(TreeNode*root){
         pair<int,int>p;
