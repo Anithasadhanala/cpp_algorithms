@@ -11,6 +11,7 @@ int main() {
   map<int,int>m;
   int sum=0;
   int ma =0;
+  // m[0]=1 is not added as if we find the sum==k also, we wanted longest diatance so, i+1 is the biggest distance!!!
   for(int i=0;i<n;i++){
       sum+=v[i];
       if(sum==k) ma = i+1;
